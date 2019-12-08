@@ -4,6 +4,7 @@ import About from './components/about/about';
 import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 import Resume from './components/resume/resume';
+import Portfolio from './components/portfolio/portfolio';
 
 class App extends Component {
   render() {
@@ -11,9 +12,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
-        <Resume></Resume>
-        {/* <Portfolio />
-        <Testimonials /> */}
+        <Resume />
+        <Portfolio />
+        {/* <Testimonials /> */}
         <ContactUs />
         <Footer />
       </div>
