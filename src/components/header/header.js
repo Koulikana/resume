@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 export default class Header extends Component {
   render() {
+    let resumeData = this.props.resumeData;
+
     return (
       <React.Fragment>
         <header id="home">
@@ -48,13 +50,12 @@ export default class Header extends Component {
           {/* end #nav-wrap */}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm Jonathan Doe.</h1>
+              <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
               <h3>
-                I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and{' '}
-                <span>webdesigner</span> creating awesome and effective visual identities for companies of all
-                sizes around the globe. Let's{' '}
+                I'm a Bordeaux, France based <span>{resumeData.role}</span>, {resumeData.roleDescription}.
+                Let's{' '}
                 <a className="smoothscroll" href="#about">
-                  start scrolling
+                  start scrolling{' '}
                 </a>
                 and learn more{' '}
                 <a className="smoothscroll" href="#about">
