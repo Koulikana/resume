@@ -3,6 +3,7 @@ import Header from './components/header/header';
 import About from './components/about/about';
 import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
+import Resume from './components/resume/resume';
 
 class App extends Component {
   render() {
@@ -10,8 +11,8 @@ class App extends Component {
       <div className="App">
         <Header />
         <About />
-        {/* <Resume />
-        <Portfolio />
+        <Resume></Resume>
+        {/* <Portfolio />
         <Testimonials /> */}
         <ContactUs />
         <Footer />
