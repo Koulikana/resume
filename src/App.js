@@ -36,12 +36,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header resumeData={this.state.resumeData} handleLanguage={this.handleLanguage} />
-        <About />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <ContactUs />
-        <Footer />
+        <About resumeData={this.state.resumeData} />
+        <Resume resumeData={this.state.resumeData} />
+        <Portfolio resumeData={this.state.resumeData} />
+        <Testimonials resumeData={this.state.resumeData} />
+        <ContactUs resumeData={this.state.resumeData} />
+        <Footer resumeData={this.state.resumeData} />
       </div>
     );
   }
