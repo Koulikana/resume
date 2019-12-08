@@ -5,6 +5,7 @@ import ContactUs from './components/contactus/contactus';
 import Footer from './components/footer/footer';
 import Resume from './components/resume/resume';
 import Portfolio from './components/portfolio/portfolio';
+import Testimonials from './components/testimonials/testimonials';
 
 class App extends Component {
   render() {
@@ -14,7 +15,7 @@ class App extends Component {
         <About />
         <Resume />
         <Portfolio />
-        {/* <Testimonials /> */}
+        <Testimonials />
         <ContactUs />
         <Footer />
       </div>
