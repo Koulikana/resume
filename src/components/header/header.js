@@ -44,6 +44,9 @@ export default class Header extends Component {
                   Contact
                 </a>
               </li>
+              <li>
+                <button onClick={this.props.handleLanguage}>Fr/En</button>
+              </li>
             </ul>{' '}
             {/* end #nav */}
           </nav>{' '}
