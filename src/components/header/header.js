@@ -16,32 +16,32 @@ export default class Header extends Component {
             <ul id="nav" className="nav">
               <li className="current">
                 <a className="smoothscroll" href="#home">
-                  Home
+                  {resumeData.header.home}
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#about">
-                  About
+                  {resumeData.header.about}
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#resume">
-                  Resume
+                  {resumeData.header.resume}
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Works
+                  {resumeData.header.works}
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#testimonials">
-                  Testimonials
+                  {resumeData.header.testimonials}
                 </a>
               </li>
               <li>
                 <a className="smoothscroll" href="#contact">
-                  Contact
+                  {resumeData.header.contact}
                 </a>
               </li>
               <li>
@@ -53,54 +53,29 @@ export default class Header extends Component {
           {/* end #nav-wrap */}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
+              <h1 className="responsive-headline">{resumeData.name}.</h1>
               <h3>
-                I'm a Bordeaux, France based <span>{resumeData.role}</span>, {resumeData.roleDescription}.
-                Let's{' '}
+                {resumeData.header.city} <span>{resumeData.role}</span>, {resumeData.roleDescription}.{' '}
+                {resumeData.header.beforeStartScrolling}{' '}
                 <a className="smoothscroll" href="#about">
-                  start scrolling{' '}
+                  {resumeData.header.startScrolling}{' '}
                 </a>
-                and learn more{' '}
+                {resumeData.header.learnMore}{' '}
                 <a className="smoothscroll" href="#about">
-                  about me
+                  {resumeData.header.aboutMe}
                 </a>
                 .
               </h3>
               <hr />
               <ul className="social">
                 <li>
-                  <a href="#">
-                    <i className="fa fa-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href={resumeData.linkedinLink}>
                     <i className="fa fa-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-dribbble" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-skype" />
+                  <a href={resumeData.githubLink}>
+                    <i className="fa fa-github" />
                   </a>
                 </li>
               </ul>
