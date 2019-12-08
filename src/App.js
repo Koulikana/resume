@@ -38,9 +38,9 @@ class App extends Component {
         <Header resumeData={this.state.resumeData} handleLanguage={this.handleLanguage} />
         <About resumeData={this.state.resumeData} />
         <Resume resumeData={this.state.resumeData} />
-        <Portfolio resumeData={this.state.resumeData} />
-        <Testimonials resumeData={this.state.resumeData} />
-        <ContactUs resumeData={this.state.resumeData} />
+        {/* <Portfolio resumeData={this.state.resumeData} /> */}
+        {/* <Testimonials resumeData={this.state.resumeData} /> */}
+        {/* <ContactUs resumeData={this.state.resumeData} /> */}
         <Footer resumeData={this.state.resumeData} />
       </div>
     );

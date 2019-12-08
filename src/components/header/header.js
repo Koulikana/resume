@@ -29,7 +29,7 @@ export default class Header extends Component {
                   {resumeData.header.resume}
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a className="smoothscroll" href="#portfolio">
                   {resumeData.header.works}
                 </a>
@@ -38,12 +38,12 @@ export default class Header extends Component {
                 <a className="smoothscroll" href="#testimonials">
                   {resumeData.header.testimonials}
                 </a>
-              </li>
+              </li> 
               <li>
                 <a className="smoothscroll" href="#contact">
                   {resumeData.header.contact}
                 </a>
-              </li>
+              </li> */}
               <li>
                 <button onClick={this.props.handleLanguage}>Fr/En</button>
               </li>
