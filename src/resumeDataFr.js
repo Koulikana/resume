@@ -74,7 +74,7 @@ let resumeDataFr = {
       description: '',
     },
   },
-  imagebaseurl: 'http://localhost:3000/',
+  imagebaseurl: 'https://techonoeticsclub.github.io/',
   name: 'Audrey COMLAN-CATARIA',
   role: "Développeuse Conceptrice d'applications",
   roleDescription: 'spécialisée dans le développement back-end en .NET',
