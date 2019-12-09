@@ -74,7 +74,7 @@ let resumeDataEn = {
       description: '',
     },
   },
-  imagebaseurl: 'https://techonoeticsclub.github.io/',
+  imagebaseurl: 'https://koulikana.github.io/',
   name: "I'm Audrey COMLAN-CATARIA",
   role: 'Software Developer',
   roleDescription: 'specialised in back-end development with .NET',
