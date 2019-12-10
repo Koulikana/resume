@@ -53,7 +53,7 @@ export default class Header extends Component {
           {/* end #nav-wrap */}
           <div className="row banner">
             <div className="banner-text">
-              <h1 className="responsive-headline">{resumeData.name}.</h1>
+              <h1 className="responsive-headline">{resumeData.name}</h1>
               <h3>
                 {resumeData.header.city} <span>{resumeData.role}</span>, {resumeData.roleDescription}.{' '}
                 {resumeData.header.beforeStartScrolling}{' '}
