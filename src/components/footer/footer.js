@@ -21,7 +21,7 @@ export default class Footer extends Component {
                 </li>
               </ul>
               <ul className="copyright">
-                <li>© Copyright 2014 CeeVee</li>
+                <li>© Copyright 2019 Audrey COMLAN-CATARIA</li>
                 <li>
                   Design by{' '}
                   <a title="Styleshout" href="http://www.styleshout.com/">
