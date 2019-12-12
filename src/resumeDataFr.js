@@ -57,7 +57,7 @@ let resumeDataFr = {
     },
     cdiscount1: {
       companyName: 'Cdiscount (Service du Credit Management)',
-      job: 'Assitante Credit Management',
+      job: 'Assistante Credit Management',
       date: 'De juin 2017 à septembre 2018',
       description: '',
     },
