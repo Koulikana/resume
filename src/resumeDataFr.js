@@ -53,7 +53,7 @@ let resumeDataFr = {
       companyName: 'Cdiscount (Feature Team Paiement)',
       job: "Assistante Ingénieure d'Etudes",
       date: 'De janvier à décembre 2019',
-      description: '',
+      description: "Au sein de l'équipe en charge du développement de la page de paiement, avec les méthodes scrum.",
     },
     cdiscount1: {
       companyName: 'Cdiscount (Service du Credit Management)',
